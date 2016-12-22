@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_new_easy_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/action_start_easy_game"
+        android:textSize="@dimen/text_button_size"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/icon_easy"
+        android:onClick="startEasyGame"/>
+
+    <Button
+        android:id="@+id/btn_new_normal_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/action_start_normal_game"
+        android:textSize="@dimen/text_button_size"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/icon_normal"
+        android:onClick="startNormalGame"/>
+
+    <Button
+        android:id="@+id/btn_new_hard_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/action_start_hard_game"
+        android:textSize="@dimen/text_button_size"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/icon_hard"
+        android:onClick="startHardGame"/>
+
+    <Button
+        android:id="@+id/btn_new_custom_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/action_start_custom_game"
+        android:textSize="@dimen/text_button_size"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/icon_custom"
+        android:onClick="startCustomGame"/>
+
+</LinearLayout>
